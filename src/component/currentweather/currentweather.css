@@ -1,0 +1,26 @@
+.weather-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.current-weather-image{
+    display: flex;
+    align-items: center;
+}
+.arrows{
+    display: flex;
+}
+.icon-menu{
+    display: grid;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menu-area{
+    display: flex;
+}
+ul>li{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
