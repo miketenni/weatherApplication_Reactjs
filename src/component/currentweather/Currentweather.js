@@ -21,7 +21,6 @@ export default function Currentweather(props){
                 <div className='col'>
                     <div className='current-weather-image'>
                     <img src='https://cdn-icons-png.flaticon.com/512/263/263883.png' alt='icon' style={{ width: 100, height: 100 }}/>
-                    <weather/>
                     <h1>{props.data[0]?.main?.temp}&deg;C</h1>
                     </div>
                     <h1>{props.data[0]?.weather[0]?.description}</h1>

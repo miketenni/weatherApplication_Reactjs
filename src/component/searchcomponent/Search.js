@@ -40,8 +40,8 @@ export default function Search(){
             <Paper className="searchBar_main" component="form" sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 400 }}>
                 <InputBase sx={{ ml: 1, flex: 1 }} onChange={e => setCityName(e.target.value)}
                 placeholder="Search By Name " inputProps={{ 'aria-label': 'Search By Name' }}/>
-                <IconButton type="button" sx={{ p: '10px' }} aria-label="search">
-                    <SearchIcon onClick={handleSubmit}/>
+                <IconButton type="button" sx={{ p: '10px' }} aria-label="search" onClick={handleSubmit}>
+                    <SearchIcon />
                 </IconButton>
             </Paper>
 {/* search bar input end */}
